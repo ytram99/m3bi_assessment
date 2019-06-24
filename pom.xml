@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.6.RELEASE</version>
+		<version>2.0.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.assignment.weather</groupId>
@@ -46,6 +46,11 @@
     		<artifactId>springfox-swagger-ui</artifactId>
     		<version>2.9.2</version>
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.0.10.Final</version>
+		</dependency>
 
 		<!-- JUNIT Test dependencies-->
 		<dependency>
@@ -78,7 +83,6 @@
 			<version>1.6.2</version>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<!--  must be on the classpath  -->
 			<groupId>org.jacoco</groupId>
@@ -102,7 +106,9 @@
 				<version>0.8.2</version>
 				<configuration>
 					<excludes>
-						<exclude>*/jooq/.*</exclude>
+						<exclude>**/model/*</exclude>
+						<exclude>**/exception/*</exclude>
+						<exclude>**/swagger/*</exclude>
 					</excludes>
 				</configuration>
 				<executions>

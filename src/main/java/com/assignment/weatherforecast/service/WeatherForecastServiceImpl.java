@@ -27,9 +27,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class WeatherForecastServiceImpl implements WeatherForecastService{
 	
-	@Autowired
-	private RestTemplate rsTemplate;
-	
 	@Value("${weatherServiceEndpoint}")
 	private String endPointUrl;
 	
