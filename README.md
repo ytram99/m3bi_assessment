@@ -1,4 +1,4 @@
-# Hourly Weather FOrecast for Given Zip code!
+# Hourly Weather Forecast for Given Zip code!
 
 This project exposes end point to know the hourly weather forecasts for a given zipcode in United states.
 
@@ -14,7 +14,7 @@ This project exposes end point to know the hourly weather forecasts for a given 
 
 Must have JDK 8, Maven and  installed locally in order to run these modules locally.
 
-Plugins like Cucumber , Gherkin are required to execute automation tests from ide
+Plugins like Lombok, Cucumber , Gherkin are required to execute automation tests from ide
 
 ## Usage
 
