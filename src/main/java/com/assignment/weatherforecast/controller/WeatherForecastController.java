@@ -21,7 +21,8 @@ public class WeatherForecastController {
 	
 	@Autowired
 	WeatherForecastService weatherForeCastService;
-	
+
+
 	@RequestMapping(value = "hourly", method = RequestMethod.GET)
 	public WeatherForecastResponse getHourlyWeatherForecast(@RequestParam("zipcode") @Size(max=5, min=5) String zipCode) throws ServiceException{
 		System.out.println("In Logger");

@@ -78,16 +78,6 @@ public class WeatherForecastServiceImpl implements WeatherForecastService{
 		return responseEntity.getBody();
 	}
 
-	@Override
-	public WeatherForecastResponse getDailyForecasts(String zipCode) throws ServiceException {
-		
-		log.debug("Entered into "+WeatherForecastUtil.getMethodName(Thread.currentThread().getStackTrace()));
-		
-		
-		log.debug("Exiting from "+WeatherForecastUtil.getMethodName(Thread.currentThread().getStackTrace()));
-	
-		
-		return null;
-	}
+
 
 }
