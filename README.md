@@ -31,7 +31,7 @@ From the IDE go to WeatherForecastApplication.java file located in weather-forec
 
 OR
 
-java -jar .jar com.aexp.lending.loan.accounts.LoanAccountApplication.java
+java -jar .jar com.assignment.weatherforecast.WeatherForecastApplication.java
 
 ## Test Automation
 
