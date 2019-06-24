@@ -37,7 +37,9 @@ java -jar .jar com.assignment.weatherforecast.WeatherForecastApplication.java
 
 To run/install the automation project, Start the application and Run WeatherForecastServiceTestRunner class.
 
-
+##Sample Endpoint url
+http://localhost:8080/weatherservices/v1/forecast/hourly?zipcode=85027
 
 ## API Documentation
 http://localhost:8080/swagger-ui.html#/weather-controller
+
